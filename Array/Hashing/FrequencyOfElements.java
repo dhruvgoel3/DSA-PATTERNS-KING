@@ -21,5 +21,6 @@ public class FrequencyOfElements {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
 
+
     }
 }
