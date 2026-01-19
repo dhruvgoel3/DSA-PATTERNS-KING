@@ -1,0 +1,29 @@
+package PrefixSum;
+
+public class RangeSumQuerry {
+    public static void main(String[] args) {
+        int[] arr = {2, 4, 1, 3, 5};
+
+        // Build prefix sum
+        int n = arr.length;
+        int[] prefix = new int[n];
+        prefix[0] = arr[0];
+
+        for (int i = 1; i < n; i++) {
+            prefix[i] = prefix[i - 1] + arr[i];
+        }
+
+        // Query
+        int l = 1;
+        int r = 3;
+
+        int sum;
+        if (l == 0) {
+            sum = prefix[r];
+        } else {
+            sum = prefix[r] - prefix[l - 1];
+        }
+
+        System.out.println(sum); // Output: 8
+    }
+}
