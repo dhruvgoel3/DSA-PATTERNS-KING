@@ -1,4 +1,5 @@
 package PrefixSum;
+
 // prefix sum imp problem
 public class RangeSumQuerry {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class RangeSumQuerry {
             prefix[i] = prefix[i - 1] + arr[i];
         }
 
-        // Query
+
         int l = 1;
         int r = 3;
 
