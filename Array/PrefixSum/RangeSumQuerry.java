@@ -14,7 +14,7 @@ public class RangeSumQuerry {
             prefix[i] = prefix[i - 1] + arr[i];
         }
 
-
+        // Query
         int l = 1;
         int r = 3;
 
