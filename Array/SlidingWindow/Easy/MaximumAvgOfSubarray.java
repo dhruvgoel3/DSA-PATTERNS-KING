@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.Easy;
 
 public class MaximumAvgOfSubarray {
     public static double maxAvgSubarray(int[] arr, int k) {

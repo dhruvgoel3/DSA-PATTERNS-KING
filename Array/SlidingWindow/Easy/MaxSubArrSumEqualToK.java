@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.Easy;
 // Find the maximum sum of subarray size equal to k
 public class MaxSubArrSumEqualToK {
     public static int maxSubArrSum(int[] arr, int k) {

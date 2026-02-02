@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.Easy;
 
 public class MinSubArrLengthSum {
     public static int minSubArrayLen(int k, int[] arr) {

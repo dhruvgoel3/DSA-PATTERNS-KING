@@ -1,6 +1,4 @@
-package SlidingWindow;
-
-import java.util.ArrayList;
+package SlidingWindow.Easy;
 
 // First Negative Number in Every Window of Size K
 public class FirstNegativeInWindow {

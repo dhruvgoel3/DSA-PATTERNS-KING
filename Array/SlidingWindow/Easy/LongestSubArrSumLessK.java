@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.Easy;
 
 // Longest Subarray With Sum ≤ K
 public class LongestSubArrSumLessK {
