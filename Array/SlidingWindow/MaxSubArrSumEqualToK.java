@@ -1,5 +1,5 @@
 package SlidingWindow;
-
+// Find the maximum sum of subarray size equal to k
 public class MaxSubArrSumEqualToK {
     public static int maxSubArrSum(int[] arr, int k) {
 
@@ -24,7 +24,7 @@ public class MaxSubArrSumEqualToK {
     public static void main(String[] args) {
         int[] arr = {2, 1, 5, 1, 3, 2};
         int k = 3;
-        System.out.println(maxSubArrSum(arr,k));
+        System.out.println(maxSubArrSum(arr, k));
 
     }
 }
