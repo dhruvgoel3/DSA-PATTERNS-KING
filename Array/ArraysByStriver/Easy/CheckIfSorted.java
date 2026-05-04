@@ -1,4 +1,4 @@
-package ArraysByStriver;
+package ArraysByStriver.Easy;
 
 public class CheckIfSorted {
 }
