@@ -15,6 +15,12 @@ public class BASICS {
                 map.put(el, map.get(el) + 1);
             }
         }
+
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+
         System.out.println(map.get(1)); // it will return that how many times 1 is occurred
         System.out.println(map.values()); // it will return all the values in our hashmap
         System.out.println(map.keySet()); // it will return all the keys in our hashmap
