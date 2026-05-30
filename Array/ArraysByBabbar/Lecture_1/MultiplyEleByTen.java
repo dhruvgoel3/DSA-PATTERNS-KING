@@ -1,4 +1,4 @@
-package ArraysByBabbar;
+package ArraysByBabbar.Lecture_1;
 
 public class MultiplyEleByTen {
     public static int[] findAvg(int arr[]) {

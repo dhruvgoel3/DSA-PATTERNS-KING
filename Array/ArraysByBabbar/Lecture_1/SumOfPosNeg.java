@@ -1,4 +1,4 @@
-package ArraysByBabbar;
+package ArraysByBabbar.Lecture_1;
 
 public class SumOfPosNeg {
     static int[] getPosNegSum(int arr[]) {
@@ -7,9 +7,9 @@ public class SumOfPosNeg {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 0) {
-                posSum = posSum + arr[i];
+                posSum += arr[i];
             } else {
-                negSum = negSum + arr[i];
+                negSum += arr[i];
             }
         }
         int ans[] = {posSum, negSum};

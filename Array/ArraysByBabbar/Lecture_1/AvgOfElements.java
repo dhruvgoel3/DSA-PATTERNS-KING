@@ -1,4 +1,4 @@
-package ArraysByBabbar;
+package ArraysByBabbar.Lecture_1;
 
 public class AvgOfElements {
     public static double findAvg(int arr[]) {
@@ -18,3 +18,5 @@ public class AvgOfElements {
         System.out.println(findAvg(arr));
     }
 }
+// T.C == O(n)
+// S.C == O(1)
