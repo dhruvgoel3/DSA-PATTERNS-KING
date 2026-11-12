@@ -1,4 +1,4 @@
-package FinalChance;
+package FinalChance.SheetOne;
 
 import java.util.Scanner;
 

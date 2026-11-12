@@ -1,4 +1,4 @@
-package FinalChance;
+package FinalChance.SheetOne;
 
 public class Ques_10 {
     public static void reverse(int[] arr, int i, int j) {

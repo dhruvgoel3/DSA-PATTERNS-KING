@@ -1,4 +1,4 @@
-package FinalChance;
+package FinalChance.SheetOne;
 
 public class Ques_2 {
     public static int findMaxElement(int[] arr) {

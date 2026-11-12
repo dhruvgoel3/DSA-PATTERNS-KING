@@ -1,4 +1,4 @@
-package FinalChance;
+package FinalChance.SheetOne;
 
 public class Ques_9 {
     static void main() {
